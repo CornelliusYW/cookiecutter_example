@@ -1,0 +1,20 @@
+# Ignore virtual environment folder
+deploy_model
+
+# Python-related cache files
+__pycache__/
+*.py[cod]
+
+# Ignore package files
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore model checkpoints and outputs
+models/
+*.h5
